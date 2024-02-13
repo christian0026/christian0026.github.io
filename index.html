@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentines Day!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Happy Valentines my baby czarina!</strong>
+                        <p>
+                            I just want you to know that I love you so, so much, and you have made me the happiest person. I'm forever grateful that you're here with me. I know we've been through a lot and have almost separated several times, but look at us, we still manage to celebrate this special day together. I'm really proud of both of us! I promise I will continue working on being better for you, and always remember that, no matter what happens, I'm always here. I love you so much!
+                            <strong>02-05-24</strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
